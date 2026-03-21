@@ -8,7 +8,7 @@ BACKUP_DIR="$HOME/.dotfiles_backup/$(date +%Y%m%d_%H%M%S)"
 DEPENDENCIES=("zsh" "tmux" "vim" "git" "curl")
 
 # 需要建立软链接的配置文件列表
-FILES=(".vimrc" ".tmux.conf" ".zshrc" ".bashrc" ".profile" ".gitconfig" ".vim")
+FILES=(".vimrc" ".tmux.conf" ".zshrc" ".bashrc" ".profile" ".gitconfig")
 
 echo "========================================"
 echo "🚀 开始全自动部署 dotfiles 环境..."
