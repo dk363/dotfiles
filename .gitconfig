@@ -1,7 +1,0 @@
-[pull]
-	rebase = false
-[user]
-	email = xukuangdi@qq.com
-	name = Hsu Kuangdi
-[http]
-	postBuffer = 524288000
