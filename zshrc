@@ -120,16 +120,3 @@ alias cat='batcat --paging=never'
 # Created by `pipx` on 2026-03-10 11:51:45
 export PATH="$PATH:/home/icspa/.local/bin"
 
-# WSL 自动代理配置 (默认开启)
-export host_ip=$(ip route show | grep -i default | awk '{ print $3}')
-export http_proxy="http://$host_ip:7890"
-export https_proxy="http://$host_ip:7890"
-export all_proxy="socks5://$host_ip:7890"
-
-# 关闭代理
-function unproxy() {
-    unset http_proxy https_proxy all_proxy
-    echo "❌ 代理已临时关闭！"
-}
-
-alias dc="cd"
