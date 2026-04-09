@@ -67,3 +67,5 @@ if has("autocmd")
   augroup END
 endif
 
+" 允许 h, l, 左右方向键, Backspace 和 Space 键跨越行边界
+set whichwrap+=b,s,h,l,<,>,[,]
