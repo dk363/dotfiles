@@ -107,11 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# ls 的配置
-alias ll="ls -lh"
-alias la="ls -A"
-alias lla="la -l"
-
 alias bat='batcat'
 
 # 使用 bat 代替 cat
@@ -120,3 +115,10 @@ alias cat='batcat --paging=never'
 # Created by `pipx` on 2026-03-10 11:51:45
 export PATH="$PATH:/home/icspa/.local/bin"
 
+# ls 的配置
+alias ll="ls -lh"
+alias la="ls -A"
+alias lla="la -l"
+
+# gcc
+alias gccg="gcc -g"
