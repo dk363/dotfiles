@@ -73,3 +73,6 @@ set whichwrap+=b,s,h,l,<,>,[,]
 " 普通模式按下Enter 插入空行
 nnoremap <Enter> o<Esc>
 nnoremap <S-Enter> O<Esc>
+
+" 减少缩进
+inoremap <S-Tab> <C-d>
