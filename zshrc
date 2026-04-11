@@ -118,10 +118,9 @@ export PATH="$PATH:/home/icspa/.local/bin"
 # ls 的配置
 alias ll="ls -lh"
 alias la="ls -A"
-alias lla="la -l"
 
 # gcc
-alias gccg="gcc -g"
+alias gg="gcc -g"
 
 # tmux attach the specific windows
 alias ta="tmux a -t"
