@@ -122,3 +122,6 @@ alias lla="la -l"
 
 # gcc
 alias gccg="gcc -g"
+
+# tmux attach the specific windows
+alias ta="tmux a -t"
