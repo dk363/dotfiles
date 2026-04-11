@@ -69,3 +69,7 @@ endif
 
 " 允许 h, l, 左右方向键, Backspace 和 Space 键跨越行边界
 set whichwrap+=b,s,h,l,<,>,[,]
+
+" 普通模式按下Enter 插入空行
+nnoremap <Enter> o<Esc>
+nnoremap <S-Enter> O<Esc>
