@@ -78,14 +78,5 @@ nnoremap <S-Enter> O<Esc>
 inoremap <S-Tab> <C-d>
 nnoremap <S-Tab> <C-d>
 
-" 插件开始部分
-call plug#begin('~/.vim/plugged')
-
-Plug 'https://ghproxy.com/https://github.com/jiangmiao/auto-pairs'         " 括号自动补全
-Plug 'https://ghproxy.com/https://github.com/tpope/vim-commentary'         " 快捷注释
-
-" " 插件结束部分
-call plug#end()
-
 " alias :wq == :Wq
 command! Wq wq
