@@ -121,6 +121,7 @@ alias gg="gcc -g"
 
 # tmux attach the specific windows
 alias ta="tmux a -t"
+alias tnew="tmux new -s"
 
 . "$HOME/.local/bin/env"
 
