@@ -80,3 +80,5 @@ nnoremap <S-Tab> <C-d>
 
 " alias :wq == :Wq
 command! Wq wq
+
+set clipboard=unnamedplus
