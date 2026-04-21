@@ -76,7 +76,7 @@ nnoremap <S-Enter> O<Esc>
 
 " 减少缩进
 inoremap <S-Tab> <C-d>
-nnoremap <S-Tab> <C-d>
+nnoremap <S-Tab> <<
 
 " alias :wq == :Wq
 command! Wq wq
