@@ -129,3 +129,6 @@ alias tnew="tmux new -s"
 alias proxy="export http_proxy=http://127.0.0.1:10809; export https_proxy=http://127.0.0.1:10809; export all_proxy=socks5://127.0.0.1:10808; echo 'Terminal Proxy ON'"
 # 关闭终端代理
 alias unproxy="unset http_proxy https_proxy all_proxy; echo 'Terminal Proxy OFF'"
+
+# opencode
+export PATH=/home/hsu/.opencode/bin:$PATH
