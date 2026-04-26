@@ -82,3 +82,7 @@ nnoremap <S-Tab> <<
 command! Wq wq
 
 set clipboard=unnamedplus
+
+" 降低快捷键的等待时间
+set timeoutlen=300
+set ttimeoutlen=50
