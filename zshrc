@@ -109,9 +109,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias bat='batcat'
 
-# Created by `pipx` on 2026-03-10 11:51:45
-export PATH="$PATH:/home/icspa/.local/bin"
-
 # ls 的配置
 alias ll="ls -lh"
 alias la="ls -A"
@@ -122,13 +119,6 @@ alias gg="gcc -g"
 # tmux attach the specific windows
 alias ta="tmux a -t"
 alias tnew="tmux new -s"
-
-. "$HOME/.local/bin/env"
-
-# 开启终端代
-alias proxy="export http_proxy=http://127.0.0.1:10809; export https_proxy=http://127.0.0.1:10809; export all_proxy=socks5://127.0.0.1:10808; echo 'Terminal Proxy ON'"
-# 关闭终端代理
-alias unproxy="unset http_proxy https_proxy all_proxy; echo 'Terminal Proxy OFF'"
 
 # opencode
 export PATH=/home/hsu/.opencode/bin:$PATH
