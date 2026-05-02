@@ -107,11 +107,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias bat='batcat'
-
-# Created by `pipx` on 2026-03-10 11:51:45
-export PATH="$PATH:/home/icspa/.local/bin"
-
 # ls 的配置
 alias ll="ls -lh"
 alias la="ls -A"
@@ -132,3 +127,4 @@ alias unproxy="unset http_proxy https_proxy all_proxy; echo 'Terminal Proxy OFF'
 
 # opencode
 export PATH=/home/hsu/.opencode/bin:$PATH
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
