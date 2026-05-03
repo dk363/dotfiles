@@ -121,3 +121,7 @@ alias tnew="tmux new -s"
 # opencode
 export PATH=/home/hsu/.opencode/bin:$PATH
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
+
+# Set system language to English
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
