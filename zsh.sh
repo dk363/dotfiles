@@ -105,7 +105,7 @@ ensure_default_shell() {
   fi
 
   if have_cmd chsh; then
-    chsh -s "$(command -v zsh)" "${USER}"
+	  chsh -s "$(command -v zsh)" "$(whoami)"
     log "Default shell set to zsh. You may need to log out and back in."
     return
   fi
