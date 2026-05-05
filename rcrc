@@ -1,1 +1,2 @@
+# rcm configuration: files excluded from symlink management
 EXCLUDES="zsh.sh README.md"

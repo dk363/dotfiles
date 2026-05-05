@@ -4,4 +4,5 @@
 	email = xukuangdi@qq.com
 	name = Hsu Kuangdi
 [http]
+	# Increase post buffer for large pushes
 	postBuffer = 524288000
