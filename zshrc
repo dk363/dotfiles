@@ -1,3 +1,7 @@
+# ==========================================
+# Oh My Zsh Configuration
+# ==========================================
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -65,18 +69,26 @@ ZSH_THEME="robbyrussell"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
+# ==========================================
+# Plugins
+# ==========================================
+
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git 
+	git
 	zsh-syntax-highlighting
 	zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# ==========================================
+# Aliases
+# ==========================================
 
 # User configuration
 
@@ -107,19 +119,24 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# ls 的配置
 alias ll="ls -lh"
 alias la="ls -A"
 
-# gcc
 alias gg="gcc -g"
 
-# tmux attach the specific windows
 alias ta="tmux a -t"
 alias tnew="tmux new -s"
 
-# opencode
+# ==========================================
+# PATH
+# ==========================================
+
 export PATH=/home/hsu/.opencode/bin:$PATH
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
 
+# ==========================================
+# Secrets (API keys, tokens — kept outside version control)
+# ==========================================
+
+[ -f "$HOME/.local/secrets" ] && . "$HOME/.local/secrets"

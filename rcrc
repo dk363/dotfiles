@@ -1,1 +1,1 @@
-EXCLUDES="zsh.sh README.md Brewfile "
+EXCLUDES="zsh.sh README.md Brewfile"
