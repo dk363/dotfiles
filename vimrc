@@ -41,14 +41,6 @@ if has("autocmd")
   autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-" WSL clipboard — sync yanks to Windows clipboard via win32yank
-if has("autocmd")
-  augroup WslClipboard
-    autocmd!
-    autocmd TextYankPost * if v:event.operator ==# 'y' && v:event.regname ==# '' | call system('win32yank.exe -i --crlf', @") | endif
-  augroup END
-endif
-
 " Allow h/l/arrows/backspace/space to cross line boundaries
 set whichwrap+=b,s,h,l,<,>,[,]
 
