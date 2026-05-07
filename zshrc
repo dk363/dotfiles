@@ -33,12 +33,6 @@ alias tnew="tmux new -s"
 # PATH
 # ==========================================
 
-export PATH=/home/hsu/.opencode/bin:$PATH
+export PATH="$HOME/.local/bin:$PATH"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
-
-# ==========================================
-# Secrets (API keys, tokens — kept outside version control)
-# ==========================================
-
-[ -f "$HOME/.local/secrets" ] && . "$HOME/.local/secrets"
