@@ -2,6 +2,7 @@
 set nocompatible
 set backspace=indent,eol,start
 set hidden                     " allow switching buffers without saving
+set noswapfile
 set mouse=a
 set encoding=utf-8
 set clipboard=unnamedplus
