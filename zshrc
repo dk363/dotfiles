@@ -15,6 +15,7 @@ source $ZSH/oh-my-zsh.sh
 # Aliases
 alias ll="ls -lh"
 alias la="ls -A"
+alias lla="ls -la"
 alias gg="gcc -g"
 alias ta="tmux a -t"
 alias tnew="tmux new -s"
