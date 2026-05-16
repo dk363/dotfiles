@@ -53,3 +53,6 @@ else
 fi
 unset __mamba_setup
 # <<< mamba initialize <<<
+
+export NEMU_HOME=/home/hsu/ysyx-workbench/nemu
+export AM_HOME=/home/hsu/ysyx-workbench/abstract-machine
