@@ -22,8 +22,8 @@ set t_vb=
 filetype plugin indent on
 set autoindent
 set smartindent
-set tabstop=8
-set shiftwidth=8
+set tabstop=4
+set shiftwidth=4
 set expandtab
 
 " Search
