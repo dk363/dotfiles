@@ -5,7 +5,10 @@ I hope you like it.
 # Usage: 
 
 1. run zsh.sh to use zsh as your shell
-2. install homebrew with /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+2. install homebrew with 
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 3. cd .dotfiles dir and run
 ```bash
 brew bundle install
