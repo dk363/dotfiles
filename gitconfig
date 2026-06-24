@@ -2,7 +2,9 @@
 	rebase = false
 [user]
 	email = xukuangdi@qq.com
-	name = Hsu Kuangdi
+	name = 100021271-Xu Kuangdi
 [http]
 	# Increase post buffer for large pushes
 	postBuffer = 524288000
+[color]
+	ui = true

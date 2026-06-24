@@ -19,11 +19,7 @@ alias lla="ls -la"
 alias gg="gcc -g"
 alias ta="tmux a -t"
 alias tnew="tmux new -s"
-
-# Paths and environment
-export PATH=/home/hsu/.opencode/bin:$PATH
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
-
+alias bat="batcat"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
