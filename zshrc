@@ -52,3 +52,4 @@ unset __mamba_setup
 
 export NEMU_HOME=/home/hsu/ysyx-workbench/nemu
 export AM_HOME=/home/hsu/ysyx-workbench/abstract-machine
+export PATH="$HOME/.local/bin:$PATH"
