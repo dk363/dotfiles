@@ -48,16 +48,3 @@ set whichwrap+=b,s,h,l,<,>,[,]
 " Key mappings
 nnoremap <Enter> o<Esc>
 nnoremap <S-Enter> O<Esc>
-inoremap <S-Tab> <C-d>
-nnoremap <S-Tab> <<
-command! Wq wq
-
-" Reduce keybinding latency
-set timeoutlen=300
-set ttimeoutlen=50
-
-" 关闭自动添加注释的行为
-augroup NoAutoComment
-    autocmd!
-        autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-        augroup END
