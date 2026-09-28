@@ -4,5 +4,7 @@
 alias la="ls -A"
 alias gg="gcc -g"
 alias ta="tmux a -t"
-alias tnew="tmux new -s"
-
+alias tn="tmux new -s"
+alias ca="conda activate"
+alias jnote="jupyter notebook"
+alias jlab="jupyter lab"
